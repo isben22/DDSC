@@ -1,0 +1,10 @@
+{14199:Fri, 14 Apr 2017 03:48:25 GMT} Zenphoto v1.4.14[f5b47da52feacae4e5e081b977e60ee0b2fe1bc5]
+  USER ERROR: The Zenphoto configuration file is corrupt. You will need to restore it from a backup. in /home/isben23/public_html/portfolio/zp-core/functions-common.php on line 294
+  trigger_error called from zp_error (functions-common.php [294])
+    from rewriteTokens->__construct (rewriteTokens.php [42])
+      from admin-plugins.php [48]
+{14202:Fri, 14 Apr 2017 03:48:36 GMT}
+  USER ERROR: The Zenphoto configuration file is corrupt. You will need to restore it from a backup. in /home/isben23/public_html/portfolio/zp-core/functions-common.php on line 294
+  trigger_error called from zp_error (functions-common.php [294])
+    from rewriteTokens->__construct (rewriteTokens.php [42])
+      from admin-plugins.php [48]
