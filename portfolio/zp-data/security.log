@@ -1,3 +1,0 @@
-date	requestor’s IP	type	user ID	user name	outcome	authority	additional information
-2017-04-13 22:36:26	50.63.167.60	Install			Success	zp_admin	version 1.4.14[f5b47da52f]
-		Set Security log permissions			Failed		File permissions of Security log are 0640
