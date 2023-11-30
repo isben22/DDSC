@@ -3,3 +3,7 @@
     display: flex; 
     align-items: center;
 }
+
+.img-responsive {
+    border-radius: 50%;
+}

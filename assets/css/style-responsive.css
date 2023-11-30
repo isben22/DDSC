@@ -27,7 +27,11 @@
 
 @media (min-width: 1025px) {
     .header .header-navigation { display: block !important; }
-    .team-block .img-responsive { display: inline-block; }
+    .team-block .img-responsive { display: inline-block; border-radius: 50%;
+        object-fit: cover;
+        /* Adjust the width and height as per your requirement */
+        width: 200px;
+        height: 300px; }
 }
 
 @media (max-width: 992px) {
@@ -43,7 +47,11 @@
     .ab-cirle-green { bottom: 34%; right: 3%; }
 
     .team-block .item { margin-bottom: 30px; }
-    .team-block .img-responsive { width: 100%; }
+    .team-block .img-responsive { width: 100%;  border-radius: 50%;
+        object-fit: cover;
+        /* Adjust the width and height as per your requirement */
+        width: 200px;
+        height: 300px;}
 }
 
 @media (min-width: 760px) {
@@ -70,7 +78,12 @@
 }
 
 @media (max-width: 767px) {
-    .choose-us-block .img-responsive { margin: 0 auto; }
+    .choose-us-block .img-responsive { margin: 0 auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        /* Adjust the width and height as per your requirement */
+        width: 200px;
+        height: 300px;}
 
     /*.facts-block {
 	  min-height: 470px;
@@ -108,4 +121,25 @@
     .ab-cirle-blue { left: 0; }
     .ab-cirle-red { left: 37%; }
     .ab-cirle-green { right: 0; }
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack children vertically */
+    text-align: center; /* Center text for other elements */
+}
+
+logo img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* This makes the container take the full height of the viewport */
+    padding: 20px;
 }
