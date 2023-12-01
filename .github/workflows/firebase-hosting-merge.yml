@@ -19,5 +19,5 @@ jobs:
           expires: 7d
           entryPoint: "."
           firebaseToolsVersion: "latest"
-          firebaseServiceAccount: '${{ secrets.DDSC_ADMIN_KEY }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           projectId: decision-sciences-us
