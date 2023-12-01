@@ -15,6 +15,10 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DECISION_SCIENCES_US }}'
           channelId: live
+          expires: 7d
+          entryPoint: "."
+          firebaseToolsVersion: "latest"
+          #firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DECISION_SCIENCES_US }}'
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           projectId: decision-sciences-us
