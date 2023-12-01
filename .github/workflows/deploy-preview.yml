@@ -21,4 +21,4 @@ jobs:
           expires: "7d"
           entryPoint: "."
           firebaseToolsVersion: "latest"
-          firebaseServiceAccount: "${{ secrets.DDSC_SERVICE_ACCOUNT }}"
+          firebaseServiceAccount: "${{ secrets.DDSC_ADMIN_KEY }}"
