@@ -9,8 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
-    "build": "webpack --config=Scripts/config/webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -25,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/isben22/DDSC/issues"
   },
-  "homepage": "https://github.com/isben22/DDSC#readme"
+  "homepage": "https://github.com/isben22/DDSC#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
