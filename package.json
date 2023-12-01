@@ -7,9 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
+    "start": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
