@@ -1,10 +1,16 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: './index.html', // Your main JavaScript file
+  entry: './index.js', // Your entry point
   output: {
-    filename: 'bundle.js', // The output bundle
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  // You can add more configurations like loaders, plugins here
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html' // Path to your HTML file
+    })
+  ],
+  // ... other configurations like loaders
 };
